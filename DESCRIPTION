@@ -1,0 +1,23 @@
+Package: network.enrichment
+Title: Network Enrichment
+Authors@R: c(person(given="Anthony", family="Federico", email="anfed@bu.edu", 
+             role=c("aut", "cre")))
+Version: 1.0
+Description: Network characterization through random walks.
+Depends: R (>= 3.6.0)
+License: GPL-3
+URL: https://github.com/anfederico/network-enrichment
+Encoding: UTF-8
+RoxygenNote: 7.1.1
+LazyData: false
+Imports:
+    hypeR,
+    igraph,
+    dnet
+Suggests:
+    devtools,
+    testthat,
+    knitr
+Remotes:  
+    montilab/hypeR
+VignetteBuilder: knitr
